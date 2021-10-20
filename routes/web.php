@@ -18,4 +18,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/todo','\App\Http\Controllers\TodoController');
